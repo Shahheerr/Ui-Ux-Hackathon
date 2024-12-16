@@ -4,7 +4,7 @@ import Link from 'next/link'
 interface CategoryCardProps {
     title: string
     productCount: number
-    imageSrc: string | unknown
+    imageSrc: string
     href: string
 }
 
