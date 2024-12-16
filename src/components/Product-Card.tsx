@@ -2,7 +2,7 @@ import Image from 'next/image'
 import { ShoppingCart } from 'lucide-react'
 
 interface ProductCardProps {
-  imageSrc: string | unknown
+  imageSrc: string
   name: string
   price: number
   originalPrice?: number
