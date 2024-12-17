@@ -1,8 +1,8 @@
-import Image from 'next/image'
+import Image, { StaticImageData } from 'next/image'
 import { ShoppingCart } from 'lucide-react'
 
 interface ProductCardProps {
-  imageSrc: string
+  imageSrc: string | StaticImageData
   name: string
   price: number
   originalPrice?: number
